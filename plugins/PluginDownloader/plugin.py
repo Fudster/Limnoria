@@ -308,6 +308,14 @@ repositories = utils.InsensitivePreservingDict({
                                                    'prgmrbill',
                                                    'limnoria-plugins',
                                                    ),
+<<<<<<< HEAD
+=======
+		'fudster':         GithubRepository(
+						   'fudster',
+                                                   'supybot-plugins',
+                                                   ),
+
+>>>>>>> 7e525ef... Fix padding.....
                })
 
 class PluginDownloader(callbacks.Plugin):
